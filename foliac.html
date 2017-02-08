@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>foliac</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="/fonts/BIG JOHN.otf" rel="stylesheet">
+	<link href="/fonts/Slim Joe.otf" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('a[href^="#"]').click(function () {
+				elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				if($.browser.safari){
+					$('body').animate( { scrollTop: destination }, 1100 );
+				}else{
+					$('html').animate( { scrollTop: destination }, 1100 );
+				}
+				return false;
+			});
+		});
+	</script>
+
+</head>
+
+
+<body>
+<header id="head">
+	<img id="logo-foliac" src="img/foliac-logo.png" >
+	<ul id="menu1">
+		<li><a href="" class="linkhead1">Accueil</a></li>
+		<li><a href="" class="linkhead2">Portfolio</a></li>
+		<li><a href="" class="linkhead3">About</a></li>
+		<li><a href="" class="linkhead4">Contact</a></li>
+	</ul>
+	<h1 id="zagolovok">voici votre prochain portfolio</h1>
+		<h2 id="zagolovok2" >un template psd simple et gratuit</h2>
+	<button id="mes-button">MES TRAVAUX</button>
+
+	<!--<a class="" href="#top"><img class="button" src="img/"></a>-->
+</header>
+
+<main class="">
+	<div id="centeredmenu">
+	<ul>
+		<li><a href="" id="first-button" class="link2" >Tous les projets</a></li>
+		<li><a href="" class="link2">Webdesign</a></li>
+		<li><a href="" class="link2">UI/UX design</a></li>
+		<li><a href="" class="link2">Illustration</a></li>
+		<li><a href="" class="link2">Motion design</a></li>
+	</ul>
+	</div>
+
+	<section class="green-block">
+		<div>
+			<a class="B1" href="#"><img class="A1" src="img/multiple-items.png"></a>
+			<h2 class="green-block__title big">Forest app</h2>
+			<h3 class="green-block__title small">application mobile</h3>
+		</div>
+		<div>
+			<a class="B1" href="#"><img class="A1" src="img/prototype.png"></a>
+			<h2 class="green-block__title big">Forest app</h2>
+			<h3 class="green-block__title small">application mobile</h3>
+		</div>
+		<div>
+			<a class="B1" href="#"><img class="A1" src="img/identit--visuelle.png"></a>
+			<h2 class="green-block__title big">Forest app</h2>
+			<h3 class="green-block__title small">application mobile</h3>
+		</div>
+		<div id="C1"><a class="B1" href="#"><img class="A1" id="mobile-fon" src="img/place-me-inside-psd.png"></a>
+			<h2 class="green-block__title big">Forest app</h2>
+			<h3 class="green-block__title small">application mobile</h3>
+		</div>
+	</section>
+
+	<div id="part3">
+
+		<h2><a id="miha">Michel Dupont<br>
+				<span id="miha2">Webdesigner, illustrateur, auteur
+				</span><br>
+				<span id="miha3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</span>
+			</a>
+		</h2>
+		<button id="mes-button2">Me contacter</button>
+		
+	</div>
+		<div id="contacter">
+			<h3 id="zagolovok-kontakt">Me contacter</h3>
+		<div id="input-container">
+				<div id="divname">
+					<img id="name-icon" src="img/icon-user.png" alt="">
+					<input type="text" id="name-votre" type="name" placeholder="Votre nom"/>
+				</div>
+
+				<div id="divemail">
+					<img id="e-mail-icon" src="img/icon-email.png" alt="">
+					<input type="e-mail" id="e-mail-votre" type="name" placeholder="Votre e-mail"/>
+				</div>
+
+				<div id="divmessage">
+					<img id="message-icon" src="img/icon-message.png" alt="">
+					<input type="message" id="message-votre" type="name" placeholder="Votre message"/>
+				</div>
+			<button id="input-button">E  n  v  o  y  e  r</button>
+
+		</div>
+		</div>
+
+	</div>
+
+</main>
+<footer id="footer">
+	<section id="footer-section-all">
+	<section id="footer-section-info">
+	<p class="footer-info">Copyright &copy; 2015 by beneggen - <b>www.beneggen.fr</b></p>
+	</section>
+		<section id="icons-footer">
+			<a href="https://twitter.com/"><img src="img/Twitter.png" alt="twitter" class="ba-footer__social"></a>
+			<a href="https://www.linkedin.com/"><img src="img/LinkedIn.png" alt="linkedin" class="ba-footer__social"></a>
+			<a href="https://dribbble.com/"><img src="img/Dribbble.png" alt="dribbble" class="ba-footer__social"></a>
+			<a href="https://www.behance.net/"><img src="img/Behance.png" alt="behance" class="ba-footer__social"></a>
+		</section>
+	</section>
+
+
+</footer>
+
+
+
+</body>
+</html>
